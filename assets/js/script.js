@@ -4,6 +4,9 @@ const result = document.getElementById("result");
 
 const getDaysInMonth = (year, month) => new Date(year, month, 0).getDate();
 
+/**
+ * This function calculate your age and display to the page
+ */
 const calculateAge = () =>{
     let birthDate = new Date(userInput.value);
 
